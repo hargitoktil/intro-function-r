@@ -19,3 +19,17 @@ hw<-function(){
 }
 
 hw()
+
+hj<-function(){
+  return(5)
+}
+
+hj()
+
+berhitung<-function(n){
+  for (i in 1:n){
+    print(i)
+  }
+}
+
+berhitung(5)
